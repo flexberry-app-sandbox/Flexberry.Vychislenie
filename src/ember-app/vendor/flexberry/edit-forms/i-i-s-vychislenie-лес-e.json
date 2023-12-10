@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Лес",
+  "name": "IISVychislenieЛесE",
+  "className": "ЛесE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-vychislenie-лес",
+      "modelProjection": "ЛесE"
+    }
+  ]
+}

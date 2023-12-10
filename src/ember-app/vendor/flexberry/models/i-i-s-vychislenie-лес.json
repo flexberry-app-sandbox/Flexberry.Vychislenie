@@ -1,0 +1,60 @@
+﻿{
+  "name": "IISVychislenieЛес",
+  "modelName": "i-i-s-vychislenie-лес",
+  "className": "Лес",
+  "nameSpace": "IIS.Vychislenie",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "названиеЛ",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [
+    {
+      "name": "страна",
+      "relatedTo": "i-i-s-vychislenie-страна",
+      "inverse": "лес"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ЛесE",
+      "modelName": "i-i-s-vychislenie-лес",
+      "attrs": [
+        {
+          "name": "названиеЛ",
+          "caption": "Название Л",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ЛесL",
+      "modelName": "i-i-s-vychislenie-лес",
+      "attrs": [
+        {
+          "name": "названиеЛ",
+          "caption": "Название Л",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

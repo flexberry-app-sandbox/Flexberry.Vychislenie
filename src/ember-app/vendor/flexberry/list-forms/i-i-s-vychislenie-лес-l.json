@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-vychislenie-лес-e",
+  "editForm": "i-i-s-vychislenie-лес-e",
+  "external": false,
+  "caption": "Лес",
+  "name": "IISVychislenieЛесL",
+  "className": "ЛесL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-vychislenie-лес",
+      "modelProjection": "ЛесL"
+    }
+  ]
+}

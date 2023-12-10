@@ -1,0 +1,29 @@
+﻿{
+  "applicationCaption": "Vychislenie",
+  "applicationTitle": "Vychislenie",
+  "items": [
+    {
+      "link": null,
+      "menuName": "vychislenie",
+      "caption": "Vychislenie",
+      "title": "Vychislenie",
+      "children": [
+        {
+          "link": "i-i-s-vychislenie-лес-l",
+          "menuName": null,
+          "caption": "Лес",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-vychislenie-зверь-l",
+          "menuName": null,
+          "caption": "Зверь",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

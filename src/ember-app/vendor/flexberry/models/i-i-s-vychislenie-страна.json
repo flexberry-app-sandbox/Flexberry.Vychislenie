@@ -1,0 +1,84 @@
+﻿{
+  "name": "IISVychislenieСтрана",
+  "modelName": "i-i-s-vychislenie-страна",
+  "className": "Страна",
+  "nameSpace": "IIS.Vychislenie",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "названиеС",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "лес",
+      "relatedTo": "i-i-s-vychislenie-лес",
+      "inverse": "страна"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "СтранаE",
+      "modelName": "i-i-s-vychislenie-страна",
+      "attrs": [
+        {
+          "name": "названиеС",
+          "caption": "Название С",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Лес",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "названиеЛ",
+              "caption": "",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "",
+          "name": "лес",
+          "relatedTo": "i-i-s-vychislenie-лес",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "СтранаL",
+      "modelName": "i-i-s-vychislenie-страна",
+      "attrs": [
+        {
+          "name": "названиеС",
+          "caption": "Название С",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

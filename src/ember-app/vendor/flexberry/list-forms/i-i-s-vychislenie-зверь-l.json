@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-vychislenie-зверь-e",
+  "editForm": "i-i-s-vychislenie-зверь-e",
+  "external": false,
+  "caption": "Зверь",
+  "name": "IISVychislenieЗверьL",
+  "className": "ЗверьL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-vychislenie-зверь",
+      "modelProjection": "ЗверьL"
+    }
+  ]
+}

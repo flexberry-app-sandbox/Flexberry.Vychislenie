@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Зверь",
+  "name": "IISVychislenieЗверьE",
+  "className": "ЗверьE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-vychislenie-зверь",
+      "modelProjection": "ЗверьE"
+    }
+  ]
+}

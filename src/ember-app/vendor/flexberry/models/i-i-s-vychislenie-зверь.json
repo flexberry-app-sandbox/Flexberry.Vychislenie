@@ -1,0 +1,62 @@
+﻿{
+  "name": "IISVychislenieЗверь",
+  "modelName": "i-i-s-vychislenie-зверь",
+  "className": "Зверь",
+  "nameSpace": "IIS.Vychislenie",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "названиеЖ",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "лес",
+      "relatedTo": "i-i-s-vychislenie-лес",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ЗверьE",
+      "modelName": "i-i-s-vychislenie-зверь",
+      "attrs": [
+        {
+          "name": "названиеЖ",
+          "caption": "Название Ж",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ЗверьL",
+      "modelName": "i-i-s-vychislenie-зверь",
+      "attrs": [
+        {
+          "name": "названиеЖ",
+          "caption": "Название Ж",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
